@@ -4,3 +4,26 @@
 body {
   font-family: 'IBM Plex Sans', sans-serif;
 }
+
+.content-wrapper {
+  border: 1px solid rgba(0, 0, 0, 0.025);
+}
+
+.resume-contact {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.85rem;
+}
+
+.resume-profile-image {
+  max-width: 120px;
+}
+
+
+.resume-aside {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/*.rounded {
+  border-radius: .25rem;
+}
+*/
