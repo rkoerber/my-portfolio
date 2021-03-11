@@ -27,7 +27,11 @@ body {
 }
 
 .resume-profile-image {
-  max-width: 120px;
+  max-width: 125px;
+}
+
+.resume-project-image {
+  max-width: 250px;
 }
 
 .resume-intro {
