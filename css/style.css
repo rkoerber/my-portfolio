@@ -1,5 +1,6 @@
 @import url("components/banner.css");
 @import url("components/container.css");
+@import url("components/navbar.css");
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
