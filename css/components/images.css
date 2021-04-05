@@ -1,0 +1,44 @@
+.resume-profile-image {
+  max-width: 125px;
+}
+
+.project-image-wrap {
+  position:relative;
+}
+
+.project-image-wrap:hover {
+  opacity: 0.75;
+  transition: 0.2s;
+}
+
+.resume-project-image {
+  max-width: 250px;
+}
+
+.img-description {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 8px;
+  right: 8px;
+  padding-top: 8px;
+  background: #ccc;
+  color: #000;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img-description h5 {
+  letter-spacing: 0.15rem;
+}
+
+.img-description p {
+  font-size: 0.85rem;
+}
+
+.project-image-wrap:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}

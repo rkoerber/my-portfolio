@@ -1,6 +1,7 @@
 @import url("components/banner.css");
 @import url("components/container.css");
 @import url("components/navbar.css");
+@import url("components/images.css");
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -25,20 +26,6 @@ body {
 .resume-contact {
   border-left: 1px solid rgba(0, 0, 0, 0.08);
   font-size: 0.85rem;
-}
-
-.resume-profile-image {
-  max-width: 125px;
-}
-
-.resume-project-image {
-  max-width: 250px;
-}
-
-.img-description {
-  color: #FFF;
-  opacity: 0.5;
-  transition: opacity .2s, visibility .2s;
 }
 
 .resume-intro {
